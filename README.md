@@ -11,5 +11,11 @@ A entrada é composta por apenas duas linhas contendo dois caracteres em cada. N
 
 A saída depende das seguintes situações: 1) no caso do zagueiro e atacante irem na mesma direção, só haverá uma linha na saída e deve-se imprimir a frase "Bloqueado"; 2) no caso de zagueiro e atacante irem em direções opostas, a frase impressa na primeira linha será "Driblado"; 3) caso o atacante tenha passado pelo zagueiro e o atacante chute na mesma direção que o goleiro foi para tentar defender, a frase impressa na segunda linha será "...e o goleiro pega"; 4) caso o atacante chute para um lado e goleiro vá para o outro a frase na segunda linha será "Gol".
 
-*Obs.: Só há a segunda linha na saída se o atacante passar pelo zagueiro. Sempre interprete os dados na perspectiva dos próprios jogadores, ou seja, para qual lado cada um vai.*
+**Obs.: Só há a segunda linha na saída se o atacante passar pelo zagueiro. Sempre interprete os dados na perspectiva dos próprios jogadores, ou seja, para qual lado cada um vai.**
+
+Entrada | Saída 
+:-----: | :-----: 
+e e e d | Driblado...e o goleiro pega
+d d d d | Driblado Gol
+e d d d | Bloqueado
 
